@@ -31,7 +31,7 @@ const LandingNftCard = () => {
         </div>
       </div>
       <div className="mt-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center">
           <div className="flex relative">
             <img
               className="mt-10 w-[300px] h-[300px] rounded-3xl ml-[60px] "
@@ -49,7 +49,7 @@ const LandingNftCard = () => {
               alt="h662_NFT"
             />
             <div className="absolute bottom-0 left-1/2 -translate-x-1/4">
-              😎😎😎 h662
+              😎😎😎😁😁😁
             </div>
           </div>
           <div className="flex relative">
@@ -69,7 +69,7 @@ const LandingNftCard = () => {
               alt="h662_NFT"
             />
             <div className="absolute bottom-0 left-[60px]  w-[300px] h-[300px] bg-gray-950 opacity-70">
-              <div className="top-1/2 left-1/2">😎😎😎 h662 - 품절</div>
+              <div className="top-1/2 left-1/2">😎😎😎 h662 - Sold Out</div>
             </div>
           </div>
         </div>
