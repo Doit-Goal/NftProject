@@ -16,7 +16,7 @@ const LandingNftCard = () => {
         </div>
       </div>
       <div className="mt-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-items-center">
           <div className="flex relative">
             <img
               className="w-[300px] h-[300px] rounded-3xl ml-[60px] "
