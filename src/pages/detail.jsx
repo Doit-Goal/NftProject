@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { FaChessRook } from "react-icons/fa";
+import { GiSoccerBall } from "react-icons/gi";
 import { useParams } from "react-router-dom";
 
 const Detail = () => {
@@ -47,7 +47,7 @@ const Detail = () => {
             <div className="text-4xl flex items-center">
               <div>{metadata.name}</div>
               <div className="bg-main w-8 h-8 rounded-full flex justify-center items-center ml-2 text-gray-950">
-                <FaChessRook size={18} />
+                <GiSoccerBall size={18} />
               </div>
             </div>
             <div className="mt-8 text-2xl">{metadata.description}</div>

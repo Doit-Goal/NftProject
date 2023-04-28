@@ -1,4 +1,4 @@
-import { FaChessRook } from "react-icons/fa";
+import { GiSoccerBall } from "react-icons/gi";
 import { Link } from "react-router-dom";
 
 const NftCard = ({ tokenId, metadata, mintedNft }) => {
@@ -13,7 +13,7 @@ const NftCard = ({ tokenId, metadata, mintedNft }) => {
       <div className="mt-4 text-xl font-bold flex items-center px-4 text-gray-300">
         {metadata.name.substring(0, 5)}
         <div className="bg-main w-6 h-6 rounded-full flex justify-center items-center ml-2 text-gray-950">
-          <FaChessRook size={16} />
+          <GiSoccerBall size={16} />
         </div>
       </div>
       <div className="mt-4 text-2xl font-bold px-4"># {tokenId}</div>
